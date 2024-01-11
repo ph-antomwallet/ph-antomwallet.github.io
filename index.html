@@ -1,114 +1,548 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
 <head>
-  <!-- Site made with Mobirise Website Builder v5.9.0, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.9.0, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/phantom-logo.png" type="image/x-icon">
-  <meta name="description" content="Phantom. Phantom is a digital wallet tailored for Solana and Ethereum. Phantom is a digital wallet reimagined for DeFi.">
-  
-  
-  <title>Phantom Wallet™ | Home Official Site</title>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-  
-  
-  
+	<style>
+
+	 body{
+	 	margin:0px;
+	 	padding:0px;
+	 	background:#2c2d30;
+	 	font-family: 'Poppins', sans-serif;
+	 }
+	 h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+		.header_top {
+		    background: #2c2d30;
+		    padding: 20px 25px;
+		}
+		.nav_bar_flex{
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			justify-content: space-between;
+		}
+		.nav_bar_item ul {
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    gap: 20px;
+		    margin: 0px;
+		    padding: 0px;
+		}
+		
+       .nav_bar_item ul li a {
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18px;
+		    color: rgba(255, 255, 255, 0.5);
+		}
+		.nav_bar_item ul li #overview_n{
+           color:#fff;
+		}
+		
+		
+		.nav_bar_item ul li a:hover{
+		   text-decoration: none;
+		    font-size: 18px;
+		    color: rgb(138, 129, 248);
+		}
+		
+		.nav_bar_item ul li{
+			list-style:none;
+		}
+
+		
+		.nav_bar_item_btn a {
+		    display: block;
+		    background: #4e44ce;
+		    color: #fff;
+		    padding: 12px 32px;
+		    text-decoration: none;
+		    border-radius: 20px;
+		    font-weight: 500;
+		}
+svg.inline-block.translate-y-\[0\.25em\].w-\[1\.25em\].h-\[1\.25em\] {
+    font-size: 12px;
+    width:20px;
+    padding-right:10px;
+}
+
+.main_container {
+    max-width: 1165px;
+    margin: auto;
+    padding: 0px 35px;
+}
+.banner_area_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_area_item_img img {
+    margin-top: 42px;
+}
+.banner_area_item_One h2 {
+    font-size: 4.375rem;
+    margin: 0px;
+    color: #fff;
+}
+.banner_area_item_One p {
+    color: #ababac;
+    font-size: 23px;
+    line-height: 32px;
+    margin-top: 30px;
+}
+div#flex_download_flexbox {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.btnD_box_iten_1 a {
+    background: #4e44ce;
+    color: #fff!important;
+    text-decoration: none;
+    display: block;
+    padding: 18px 33px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btnD_box_iten_2 a {
+    background: #37383b;
+    color: #fff!important;
+    text-decoration: none;
+    display: block;
+    padding: 18px 33px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    font-size: 18px;
+}
+.avalabe h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0px;
+    color: #58595a;
+    margin-top: 20px;
+}
+/*second section  strat*/
+.turn_your_flex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #6f66e1;
+    padding: 40px 0;
+    border-radius: 30px;
+}
+.turn_contetbox h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+}
+.turn_contetbox p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #bfbcf0;
+}
+.turn_contetbox ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+    color: #fff;
+}
+.turn_your_item_item_two {
+    max-width: 415px;
+    margin: 0 auto;
+}
+
+/*content********************************************************/
+.main_content_box h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:500;
+   
+}
+.main_content_box ul li,
+.main_content_box ol li,
+.main_content_box p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+.main_content_box ul, .main_content_box ol {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+	.custom_footer_container {
+    background: #372eb1;
+    padding: 50px 10px;
+    color: #fff;
+}
+.disclimarbox {
+    width: 70%;
+}
+.samecolme {
+    width: auto;
+    padding: 15px 20px;
+}
+section.custom_footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: auto;
+}
+section.custom_footer h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+.custom_footer_container ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.custom_footer_container ul li a {
+    color: #fff!important;
+    font-size: 14px;
+    color: #414141;
+}
+section.custom_footer ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+section.custom_footer ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+.disclimarbox.samecolme {
+    font-size: 14px;
+}
+/*media*/
+
+
+@media (max-width: 575.98px) { 
+.banner_area_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner_area_item_One h2 {
+    font-size: 40px;
+    margin: 0px;
+    color: #fff;
+}
+.banner_area_item_One p {
+   font-size: 15px;
+    
+}
+.turn_your_flex {
+    flex-direction: column-reverse;
+    padding:40px 20px;
+}
+.banner_area_item_img img {
+    width: 100%;
+}
+
+.turn_your_item_one img {
+    width: 100%;
+}
+.turn_contetbox h2 {
+   font-size: 28px;
+    line-height: 42px;
+    
+}
+.turn_contetbox p {
+    font-size: 17px;
+    line-height: 32px;
+  }
+
+  .main_content_box h2 {
+    font-size: 19px;
+    margin-top: 40px;
+    }
+    .main_content_box ul li, .main_content_box ol li, .main_content_box p {
+   font-size: 14px;
+    line-height: 25px;
+}
+section.custom_footer {
+    flex-direction: column;
+}
+.custom_footer_container {
+    background: #372eb1;
+    padding: 0px 10px;
+    color: #fff;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.banner_area_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner_area_item_One h2 {
+    font-size: 40px;
+    margin: 0px;
+    color: #fff;
+}
+.banner_area_item_One p {
+   font-size: 15px;
+    
+}
+.turn_your_flex {
+    flex-direction: column-reverse;
+}
+
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.banner_area_item_img img {
+    width: 100%;
+}
+.banner_area_item_One h2 {
+    font-size: 43px;
+    margin: 0px;
+    color: #fff;
+}
+.turn_contetbox h2 {
+  font-size: 27px;
+    line-height: 40px;
+    }
+    .turn_contetbox p {
+    font-size: 17px;
+    line-height: 29px;
+    }
+    .turn_contetbox ul li {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    }
+
+    .turn_your_item_item_two {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.main_content_box h2 {
+    font-size: 21px;
+    margin-top: 40px;
+   }
+
+   .custom_footer_container {
+   padding: 0px 10px;
+ }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner_area_item_One h2 {
+    font-size:45px;
+    
+}
+.banner_area_item_One p {
+   font-size: 17px;
+    line-height: 29px;
+   }
+   .turn_contetbox h2 {
+    font-size: 32px;
+    line-height: 45px;
+    }
+
+    .turn_contetbox p {
+    font-size: 17px;
+    line-height: 30px;
+    }
+    .turn_contetbox ul li {
+    font-size: 17px;
+    line-height: 36px;
+    }
+    .turn_your_item_item_two {
+    max-width: 364px;
+    margin: 0 auto;
+}
+.main_content_box h2 {
+    font-size: 24px;
+   }
+
+   .custom_footer_container {
+   padding: 0px 10px;
+    }
+
+}
+
+
+
+
+	</style>
+
 </head>
 <body>
-  
-  <section data-bs-version="5.1" class="image4 cid-tYdvneQJIW" id="image04-0">
-    
 
-    <div class="image-block m-auto">
-        <a href="https://phantom.app/"><img src="assets/images/phantom-app.webp" alt="Phantom Wallet"></a>
-        
-    </div>
+	<div class="header_top">
+		
+		<div class="nav_bar_flex">
+			<div class="nav_bar_item">
+				<img src="images/logo_n.jpg" alt="">
+			</div>
+			
+			<div class="nav_bar_item_btn">
+				<a href="#">Download</a>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="main_container">
+		<div class="banner_area_flex">
+			<div class="banner_area_item_One">
+				<h2>A friendly</h2>
+				<h2>crypto wallet</h2>
+				<p>Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.</p>
+
+				<div id="flex_download_flexbox">
+					
+                <div class="btnD_box_flex_Two">
+					<div class="btnD_box_iten_1">
+						<a href="#">Download</a>
+					</div>
+					
+				</div>
+
+				<div class="btnD_box_iten_2">
+						<a href="#"><span><svg class="inline-block translate-y-[0.25em] w-[1.25em] h-[1.25em]" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="#fff" rx="12"></rect><path fill="#37383B" d="M8.57 16.634a.75.75 0 001.153.632l7.282-4.633a.75.75 0 000-1.266L9.723 6.733a.75.75 0 00-1.153.633v9.268z"></path>
+                        </svg></span>Watch</a>
+					</div>
+
+				</div>
+				<div class="avalabe">
+					<h6>Available on iOS, Android, Chrome, Brave, and more!</h6>
+				</div>
+
+				</div>
+
+			<div class="banner_area_item_img">
+				<img src="images/banner_img_1.jpg" alt="">
+			</div>
+		</div>
+
+
+		<!-- ========== strat Turn your===================== -->
+		 <div class="turn_your_flex">
+		 	<div class="turn_your_item_one">
+		 		<img src="images/wallet-phantom.jpeg" alt="">
+		 	</div>
+		 	<div class="turn_your_item_item_two">
+		 		<div class="turn_contetbox">
+		 		<h2>Turn your browser into a crypto wallet</h2>
+		 		<p>Phantom unlocks a simple and secure way to interact with blockchain-based applications directly from your favorite web browser.</p>
+
+		 		<h2>Send & Receive</h2>
+		 		<ul>
+		 			<li>Collect NFTs</li>
+		 			<li>Swap Tokens</li>
+		 		</ul>
+		 	</div>
+		 </div>
+		 </div>
+		<!-- ========== end Turn your===================== -->
+
+
+		<div class="main_content_box">
+			<h2>Phantom wallet- Manage digital assets on the Solana blockchain efficiently </h2>
+			<p>Welcome to this lightweight non-custodial wallet and generate good income. This crypto wallet helps you deal with the different blockchains that are available on the Solana blockchain. Available in the form of an easily accessible extension, a phantom wallet can be used to perform basic operations i.e. to receive and send crypto tokens. Along with that, you can also use it to generate passive income by staking Solana. Adding more to it, you will be glad to know that the wallet comes with the option to collect NFTs as well.
+			Being a centralized as well as self-custodial wallet, this gives you the opportunity to be fully in charge of the wallet, thereby you will be responsible for the storage and safety of your private keys. And one of the most notable things about this wallet is that it is compatible with some of the most popular Windows web browsers i.e. Edge, Brave, Chrome, and Firefox.
+			</p>
+			<h2>Some notable features covered</h2>
+			<p>Although we have noted down some of the very popular features of this wallet, you will still be able to gather some more details by having a look at the following points:</p>
+			<ul>
+				<li>One of the most light-weighted wallet services available today</li>
+				<li>Can be easily used on desktops that have Chrome or other compatible browsers</li>
+				<li>You can also configure and use it with a hardware wallet for gaining next-level security</li>
+				<li>To generate some additional cryptos, you will be able to stake Solana through your wallet</li>
+			</ul>
+
+			<h2>What are the Phantom wallet fees?</h2>
+			<p>Now, it is very important to understand the fee structure of every network or crypto platform before you start using it. This will help you have a clear understanding of the amount you will be charged for carrying out any transaction through this network. Well, if we specifically talk about the Phantom wallet, we can say that every user who makes a transaction through this network needs to pay the transaction fee which is also known as the gas fee. However, this fee can only be paid in SOL. So, before you make any transactions through your wallet, you need to ensure that you have enough funds in your wallet to pay the transaction fee.</p>
+			<h2>Is it safe to use the Phantom wallet?</h2>
+			<p>Well, it is extremely safe to use this wallet service as your private keys are controlled by you and stored on your device which means nobody except you would be able to gain access to your funds. Apart from that, the security of the wallet has been taken care of by one of the top-ranked software auditing companies known by the name- Kudelski. Apart from this, when you use this wallet, there are very minimal chances that you'd take any actions by mistake.</p>
+			<h2>Learning to set up a new Phantom wallet</h2>
+			<p>In order to set up a new Phantom wallet, here are the easy steps you need to follow to set up a new wallet:</p>
+			<ol>
+				<li>The first thing that you need to do is visit the https://phantom.app/download webpage</li>
+				<li>After this, you need to click on the wallet creation option</li>
+				<li>Store your secret recovery phrase and do as you are told to do</li>
+				<li>You can also pin the phantom wallet extension for easy access</li>
+				
+			</ol>
+			<h2>Conclusion:</h2>
+			<p>If you can't find what you are looking for, you can definitely head to the official website of phantom wallet and learn more about your queries. Also, you should understand the fact that the Phantom wallet is a software wallet which means you will need to sync it with a hardware wallet for enhanced security. And, to achieve that, you can connect it with the Ledger wallet. </p>
+
+		</div>
+
+
+		
+	</section>
+
+
+	<div class="custom_footer_container">
+<section class="custom_footer">
+	
+<div class="disclimarbox samecolme">
+<h2 class="">Disclaimer :</h2>
+The information that is furnished here on this website is purely meant for sharing information and not for any other purpose(s). However, it is pretty important that you measure the consequences beforehand and make sure that you are using this website on your own accord. Hereby we clearly disclaim the usage of phantom wallet names, images, and logos as they are used only for reference.
+
+</div>
+	
+<div class="custom_footer_col2 samecolme">
+<h2 class="">Product</h2>
+<ul>
+<li><a href="https://phantom.app/">Overview</a></li>
+<li><a href="https://phantom.app/download">Download</a></li>
+<li><a href="https://phantom.app/security">Security</a></li>
+<li><a href="https://help.phantom.app/hc/en-us">Support</a></li>
+
+
+
+</ul>
+
+</div>
+<div class="custom_footer_col3 samecolme">
+<h2 class="">Company</h2>
+<ul>
+<li><a href="https://phantom.app/about">About</a></li>
+<li><a href="https://phantom.app/jobs">Jobs</a></li>
+<li><a href="https://phantom.app/about#press-kit">Press Kit</a></li>
+<li><a href="https://twitter.com/phantom">Twitter</a></li>
+
+
+
+</ul>
+
+</div>
 </section>
-
-<section data-bs-version="5.1" class="article07 cid-tYdvo8JjPK" id="article07-1">
-  
-
-  
-  
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="card col-md-12 col-lg-12">
-        <div class="card-wrapper">
-          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2"><strong>Phantom Wallet™ | Official Site</strong></h3>
-          <div class="row card-box align-left">
-            
-            
-            
-            <div class="item features-without-image col-12 active">
-              <div class="item-wrapper">
-                
-                <p class="mbr-text mbr-fonts-style display-7">Introduction:
-<br>
-<br>In the ever-expanding world of cryptocurrencies, managing digital assets efficiently and securely is crucial. Phantom Wallet has emerged as a powerful tool, enchanting users with its seamless user experience and robust security features. Built specifically for the Solana blockchain, <a href="https://ph-antomwallet.github.io/" class="text-primary"><strong>Phantom Wallet</strong></a> offers a captivating way to interact with decentralized applications (dApps) and securely store and manage crypto assets. In this article, we will explore the unique features, benefits, and impact of Phantom Wallet, as it continues to revolutionize the crypto wallet landscape.
-<br>
-<br>The Gateway to the Solana Ecosystem:
-<br>a. Introduction to Solana: Solana is a high-performance blockchain network known for its scalability and low transaction fees. <a href="https://phantom.app/" class="text-primary">Phantom Wallet </a>serves as the gateway to the Solana ecosystem, providing users with a seamless and intuitive interface to access a wide range of Solana-based dApps and manage their crypto assets.
-<br>
-<br>b. User-Friendly Interface: Phantom Wallet mesmerizes users with its clean and intuitive interface, making it easy for both beginners and experienced crypto enthusiasts to navigate the platform. The wallet's user-centric design ensures a delightful and frictionless experience for users.
-<br>
-<br>c. Cross-Platform Availability: Phantom Wallet is available as a browser extension for popular web browsers, including Google Chrome and Mozilla Firefox. This cross-platform compatibility allows users to access their wallets and interact with dApps from various devices, including desktop and mobile.
-<br>
-<br>Secure and Private Key Management:
-<br>a. Local Key Storage: Phantom Wallet prioritizes security by storing private keys locally on users' devices. This approach eliminates the need to rely on third-party custodians, reducing the risk of unauthorized access to users' funds. Users have full control over their private keys, enhancing the overall security of their crypto assets.
-<br>
-<br>b. Encrypted Vault: Phantom Wallet utilizes state-of-the-art encryption techniques to safeguard users' private keys. The encrypted vault ensures that sensitive information remains secure, even if the user's device is compromised. This advanced security measure adds an extra layer of protection for users' digital assets.
-<br>
-<br>c. Biometric Authentication: To further enhance security, Phantom Wallet supports biometric authentication methods, such as fingerprint or facial recognition. This feature provides an additional safeguard against unauthorized access to the wallet, adding convenience without compromising security.
-<br>
-<br>Seamless DApp Integration:
-<br>a. One-Click DApp Access: Phantom Wallet simplifies the process of interacting with decentralized applications on the Solana blockchain. With just a few clicks, users can seamlessly connect their wallets to various dApps, enabling them to participate in token sales, yield farming, and other DeFi activities effortlessly.
-<br>
-<br>b. Customizable Permission Settings: Phantom Wallet allows users to customize permission settings for individual dApps. This feature empowers users to control the level of access and permissions granted to different applications, enhancing privacy and security.
-<br>
-<br>c. Transaction Approval Workflow: Phantom Wallet streamlines the transaction approval process with its intuitive and efficient workflow. Users can review and approve transactions with ease, ensuring accurate and secure execution of their desired actions within dApps.
-<br>
-<br>Solana Token Management:
-<br>a. Solana Native Asset Support: Phantom Wallet supports a wide range of Solana-native tokens, enabling users to manage and interact with their favorite Solana-based cryptocurrencies. This includes popular tokens like SOL, USDC, and SRM, among others.
-<br>
-<br>b. Token Swapping: Phantom Wallet integrates with decentralized exchanges (DEXs) on the Solana blockchain, allowing users to seamlessly swap between different tokens directly within the wallet. This feature enhances liquidity and provides users with convenient access to various trading pairs.
-<br>
-<br>c. Portfolio Tracking: Phantom Wallet provides users with an overview of their token holdings and portfolio performance. Users can easily monitor their asset balances, transaction history, and portfolio value, gaining valuable insights into their crypto investments.
-<br>
-<br>The Future of Phantom Wallet:
-<br>a. Ecosystem Expansion: Phantom Wallet is actively expanding its ecosystem by partnering with projects and dApps within the Solana network. This collaboration aims to enhance the availability of innovative services and further streamline the user experience.
-<br>
-<br>b. Cross-Chain Compatibility: While currently focused on the Solana blockchain, Phantom Wallet has plans to expand its compatibility with other blockchain networks. This will enable users to manage their assets across multiple chains, simplifying the management of diverse cryptocurrency portfolios.
-<br>
-<br>c. Enhanced Features and Integrations: Phantom Wallet is continuously evolving by introducing new features and integrations. Ongoing development efforts aim to enhance usability, security, and interoperability, ensuring that users have access to the latest advancements in the crypto wallet space.
-<br>
-<br>Conclusion: Embracing the Power of Phantom Wallet
-<br>Phantom Wallet has cast its spell on the crypto community, offering a seamless and secure gateway to the Solana ecosystem. With its user-friendly interface, robust security measures, and seamless integration with Solana-based dApps, Phantom Wallet empowers users to manage their digital assets with ease. As the crypto landscape continues to evolve, Phantom Wallet remains at the forefront, driving innovation and redefining the way users interact with decentralized finance. Soembrace the power of Phantom Wallet and experience the magic of seamless and secure crypto management on the Solana blockchain.</p>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/ytplayer/index.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  
-  
-  
+</div>
 </body>
 </html>
